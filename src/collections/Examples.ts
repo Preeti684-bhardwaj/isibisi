@@ -1,6 +1,6 @@
 import { CollectionConfig } from 'payload/types'
 
-export const Examples: CollectionConfig = {
+const Examples: CollectionConfig = {
   slug: 'example-collection',
   access: {
     read: () => true,
@@ -14,3 +14,5 @@ export const Examples: CollectionConfig = {
     
   ],
 }
+
+export default Examples

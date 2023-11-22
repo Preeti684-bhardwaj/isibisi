@@ -1,6 +1,6 @@
 import { CollectionConfig } from 'payload/types'
 
-export const Navbar: CollectionConfig = {
+ const Navbar: CollectionConfig = {
   slug: 'navbar',
   access: {
     read: () => true,
@@ -21,3 +21,4 @@ export const Navbar: CollectionConfig = {
     
   ],
 }
+export default Navbar

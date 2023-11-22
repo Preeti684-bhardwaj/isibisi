@@ -1,6 +1,6 @@
 import { CollectionConfig } from 'payload/types'
 
-export const Websitehome: CollectionConfig = {
+const Websitehome: CollectionConfig = {
   slug: 'websitehome',
   access: {
     read: () => true,
@@ -44,3 +44,5 @@ export const Websitehome: CollectionConfig = {
     
   ],
 }
+
+export default Websitehome
