@@ -8,9 +8,9 @@ import { buildConfig } from 'payload/config'
 import { Examples } from './collections/Examples'
 
 import Users from './collections/Users'
-import { Websitehome } from './collections/websitehome'
+import Websitehome from './collections/Websitehome'
 import Upload from './collections/Upload'
-import { Navbar } from './collections/Navbar'
+import Navbar from './collections/Navbar'
 // import { Websitehome } from './collections/Websitehome'
 // import Upload from './collections/upload'
 
