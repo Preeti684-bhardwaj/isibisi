@@ -1,6 +1,6 @@
 import { CollectionConfig } from 'payload/types'
 
-export const Websitehome: CollectionConfig = {
+const Websitehome: CollectionConfig = {
   slug: 'websitehome',
   access: {
     read: () => true,
@@ -28,10 +28,19 @@ export const Websitehome: CollectionConfig = {
         // required: true, 
       },
 
-    {
+
+      {
+        name:'watchvideotext',
+        type: 'text', // required
+        // required: true, 
+      },
+
+      
+     {
       name:'imagesection',
       type:"upload",
       relationTo:"upload"
+
 
     },
     {
@@ -44,3 +53,5 @@ export const Websitehome: CollectionConfig = {
     
   ],
 }
+
+export default Websitehome
