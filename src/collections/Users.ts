@@ -10,7 +10,7 @@ const Users: CollectionConfig = {
     }
   },
   admin: {
-    useAsTitle: 'email',
+    useAsTitle: 'email' ,
   },
   fields: [
     // Email added by default

@@ -16,7 +16,7 @@ const Upload: CollectionConfig = {
         position: 'centre',
       },
       {
-        name: 'card',
+        name: 'card' ,
         width: 768,
         height: 1024,
         position: 'centre',
