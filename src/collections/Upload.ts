@@ -10,9 +10,5 @@ const Upload: CollectionConfig = {
     singular:'upload',
     plural:'uploads'
   },
-//   access: {
-//     read: () => true,
-//   },
-  fields:[]
 }
 export default Upload
