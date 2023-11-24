@@ -13,6 +13,6 @@ const Upload: CollectionConfig = {
 //   access: {
 //     read: () => true,
 //   },
-  fields:[]
+ fields:[]
 }
 export default Upload
